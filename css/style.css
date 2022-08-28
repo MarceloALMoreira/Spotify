@@ -64,7 +64,26 @@ nav.navbar-transparente{
     background-color: white;
     color: black;
 }
+/*  Estrutura Conteúdos
+----------------------------*/
 
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#servicos img{
+    border-radius: 10px;
+    border-top: 2px solid #6207e3;
+    border-bottom: 2px solid #6207e3;
+    background: #6207e3;
+}
+#servicos h2, h3{
+    color: #7c26f8;
+}
+.albuns{
+    padding: 10px 0px;
+}
 /*  Tipografia
 ----------------------------*/
 /*-- Converter (PX) para (EM)
@@ -77,7 +96,16 @@ h1{
     margin-bottom: 50px;
     color:white;
 }
-
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px) { 
