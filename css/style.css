@@ -1,8 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
+/*  Layout
+----------------------------*/
+body{
+    background: url(../img/fundo.png ) ,
+                linear-gradient(50deg,#ff4169, #7c26f8);
+    background-attachment: fixed;
 }
 
-body{
-    background: black;
+/*  Barra de Navegação
+----------------------------*/
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: red;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    font-weight: bold;
 }
