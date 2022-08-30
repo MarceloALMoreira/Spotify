@@ -66,6 +66,17 @@ nav.navbar-transparente{
     background-color: white;
     color: black;
 }
+
+.carousel-control-next, .carousel-control-prev{    
+    width: 5%;   
+    color: white;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{    
+    width: 5%;   
+    color: #6207e3;
+    transition: all 0.3s ease;
+}
+
 /*  Estrutura Conteúdos
 ----------------------------*/
 .caixa{
